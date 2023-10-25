@@ -3,7 +3,8 @@ import axios from "axios";
 import { parse, stringify } from "qs";
 
 const axioInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  // baseURL: "http://localhost:5000",
+  baseURL:"https://ffun-sever.onrender.com"
 });
 
 const callApi = ({ uriEndPoint, params, body, suffix }) =>

@@ -3,7 +3,7 @@ import Inventory from "./pages/Inventory";
 function Routes() {
   let element = useRoutes([
     {
-      path: "/inventory",
+      path: "/",
       children: [
         {
           path: "",
